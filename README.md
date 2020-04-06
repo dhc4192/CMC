@@ -72,7 +72,7 @@ https://wireframe.cc/pro/pp/45d53fe9c330387
 
 ## Priority Matrix
 
-![alt text](Time-Importance-Matrix.png)
+![alt text](addins/Time-Importance-Matrix.png)
 
 ##
 
@@ -90,7 +90,7 @@ https://wireframe.cc/pro/pp/45d53fe9c330387
 | Finish CSS                  |    M     |      8hrs      |      hrs      |     hrs     |
 | PostMVP                     |    L     |      4hrs      |      hrs      |     hrs     |
 | Unexpected Debugging        |    H     |      4hrs      |      hrs      |     hrs     |
-| Total                       |    H     |     40hrs      |      hrs      |     hrs     |
+| Total                       |          |     40hrs      |      hrs      |     hrs     |
 
 ##
 
