@@ -9,7 +9,7 @@
 <body>
   <header>
     <nav>
-      <img src="" alt="" id="logo">
+      <img src="addins/logo.jpg" alt="cmc logo" id="logo">
       <h1 class="title">Change My ¢hange</h1>
     </nav>
 
@@ -19,19 +19,24 @@
 
   <main>
     <section>
-      <div>
-        <label for="usValue">USD(United States)</label>
-        <input type="text" placeholder="$" class="inputNum" id="usValue">
-  
-        <select name="" id="currencySelector">
-          <option>Select Currency</option>
-        </select>
-        <input type="text" placeholder="Input Amount" class="inputNum" id="intValue">
-    
-        <input type="button" value="Convert" id="convertButton">
+      <div class= "converter">
+
+        <div>
+          <label for="usValue">USD(United States)</label>
+          <input type="text" placeholder="$" class="inputNum">
+        </div>
+      
+        <div>
+          <select name="" id="currencySelector">
+            <option>Select Currency</option>
+          </select>
+          <output name="result" id="result">Result</output>
+        </div>
+      
+        <button>Convert</button>
+
       </div>
 
-      <output name="result" id="result">Result</output>
     </section>
     
     <p>Addition Information</p><!-- Additional Information -->

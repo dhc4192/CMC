@@ -1,5 +1,4 @@
-body {
-  text-align: center;
+html, body {
   max-width: 100%;
   height: 100%;
   background-color: rgb(175, 247, 199);
@@ -8,23 +7,83 @@ body {
 
 nav {
   border: 1px solid navy;
+  display: flex;
+}
+
+img {
+  display: flex;
+  height: 100px;
+  opacity: 70%;
+}
+
+h1 {
+  display: flex;
+  font-size: 50px;
+  margin: 0;
+  padding: 20px;
 }
 
 h4 {
   border: 1px solid navy;
-}
-
-main {
-  border: 1px solid navy;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  padding: 20px;
 }
 
 section {
   border: 1px solid navy;
 }
 
+.converter {
+  border: 1px solid navy;
+  display: flex;
+  size: 50px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 50px;
+  padding: 50px;
+  width: 800px;
+}
+
+.inputNum {
+  height: 20px;
+  font-size: 15px;
+}
+
+#currencySelector {
+  width: 150px;
+  height: 20px;
+  overflow: auto;
+}
+
+#result {
+  background-color: white;
+  border: 1px solid navy;
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  width: 150px;
+  margin: 0;
+  padding: 2px;
+}
+
+button {
+  height: 25px;
+  width: 70px;
+}
+
+p {
+  border: 1px solid navy;
+  margin: 50px auto;
+  padding: 10px;
+  width: 140px;
+}
+
 footer {
   border: 1px solid navy;
-  bottom: 0;
+  text-align: center;
   position: absolute;
   width: 100%;
+  height: 60px;
 }
