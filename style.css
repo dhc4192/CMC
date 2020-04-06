@@ -41,7 +41,7 @@ section {
   size: 50px;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 50px;
+  margin: 50px auto;
   padding: 50px;
   width: 800px;
 }
@@ -64,7 +64,7 @@ section {
   justify-content: center;
   height: 20px;
   width: 150px;
-  margin: 0;
+  margin: 0 auto;
   padding: 2px;
 }
 
@@ -86,4 +86,8 @@ footer {
   position: absolute;
   width: 100%;
   height: 60px;
+}
+
+@media screen and (max-width: 450px){
+  
 }
