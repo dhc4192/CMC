@@ -81,14 +81,14 @@ https://wireframe.cc/pro/pp/45d53fe9c330387
 | Component                   | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------------- | :------: | :------------: | :-----------: | :---------: |
 | HTML and basic CSS          |    H     |      3hrs      |      hrs      |     hrs     |
-| Page layout                 |    H     |      1hr       |      hrs      |     hrs     |
-| Currency selector           |   1.5    |      3hrs      |      hrs      |     hrs     |
-| Currency input              |   1.5    |      3hrs      |      hrs      |     hrs     |
-| Conversion results          |    3     |      3hrs      |      hrs      |     hrs     |
-| Link API and store data     |    3     |      3hrs      |      hrs      |     hrs     |
+| Page layout                 |    M     |      1hr       |      hrs      |     hrs     |
+| Currency selector           |    H     |      3hrs      |      hrs      |     hrs     |
+| Currency input              |    H     |      3hrs      |      hrs      |     hrs     |
+| Conversion results          |    H     |      3hrs      |      hrs      |     hrs     |
+| Link API and store data     |    H     |      3hrs      |      hrs      |     hrs     |
 | Javascript/DOM manipulation |    H     |      8hrs      |      hrs      |     hrs     |
-| Finish CSS                  |    H     |      8hrs      |      hrs      |     hrs     |
-| PostMVP                     |    H     |      4hrs      |      hrs      |     hrs     |
+| Finish CSS                  |    M     |      8hrs      |      hrs      |     hrs     |
+| PostMVP                     |    L     |      4hrs      |      hrs      |     hrs     |
 | Unexpected Debugging        |    H     |      4hrs      |      hrs      |     hrs     |
 | Total                       |    H     |     40hrs      |      hrs      |     hrs     |
 
