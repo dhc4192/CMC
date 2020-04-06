@@ -89,7 +89,8 @@ https://wireframe.cc/pro/pp/45d53fe9c330387
 | Javascript/DOM manipulation |    H     |      8hrs      |      hrs      |     hrs     |
 | Finish CSS                  |    H     |      8hrs      |      hrs      |     hrs     |
 | PostMVP                     |    H     |      4hrs      |      hrs      |     hrs     |
-| Total                       |    H     |     36hrs      |      hrs      |     hrs     |
+| Unexpected Debugging        |    H     |      4hrs      |      hrs      |     hrs     |
+| Total                       |    H     |     40hrs      |      hrs      |     hrs     |
 
 ##
 
