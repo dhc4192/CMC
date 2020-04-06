@@ -80,8 +80,8 @@ https://wireframe.cc/pro/pp/45d53fe9c330387
 
 | Component                   | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------------- | :------: | :------------: | :-----------: | :---------: |
-| HTML and basic CSS          |    H     |      3hrs      |      hrs      |     hrs     |
-| Page layout                 |    M     |      1hr       |      hrs      |     hrs     |
+| HTML and basic CSS          |    H     |      3hrs      |      3hrs      |     3hrs     |
+| Page layout                 |    M     |      1hr       |      1hrs      |     1hrs     |
 | Currency selector           |    H     |      3hrs      |      hrs      |     hrs     |
 | Currency input              |    H     |      3hrs      |      hrs      |     hrs     |
 | Conversion results          |    H     |      3hrs      |      hrs      |     hrs     |
