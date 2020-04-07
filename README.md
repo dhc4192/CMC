@@ -62,8 +62,8 @@ https://wireframe.cc/pro/pp/45d53fe9c330387
 
 | Day        | Deliverable                                               | Status     |
 | ---------- | --------------------------------------------------------- | ---------- |
-| April 6th  | Pitch my project and get approval                         | Incomplete |
-| April 7th  | Complete HTML, basic CSS, start Javascript                | Incomplete |
+| April 6th  | Pitch my project and get approval                         | Complete |
+| April 7th  | Complete HTML, basic CSS, start Javascript                | Complete |
 | April 8th  | Javascript                                                | Incomplete |
 | April 9th  | Complete CSS, finishing touch, PostMVP (if there is time) | Incomplete |
 | April 10th | Presentation                                              | Incomplete |
