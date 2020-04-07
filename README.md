@@ -82,10 +82,10 @@ https://wireframe.cc/pro/pp/45d53fe9c330387
 | --------------------------- | :------: | :------------: | :-----------: | :---------: |
 | HTML and basic CSS          |    H     |      3hrs      |      3hrs      |     3hrs     |
 | Page layout                 |    M     |      1hr       |      1hrs      |     1hrs     |
-| Currency selector           |    H     |      3hrs      |      hrs      |     hrs     |
-| Currency input              |    H     |      3hrs      |      hrs      |     hrs     |
-| Conversion results          |    H     |      3hrs      |      hrs      |     hrs     |
-| Link API and store data     |    H     |      3hrs      |      hrs      |     hrs     |
+| Currency selector           |    H     |      3hrs      |      2hrs      |     2hrs     |
+| Currency input              |    H     |      3hrs      |      1hr       |     1hr      |
+| Conversion results          |    H     |      3hrs      |      2hrs      |     2hrs     |
+| Link API and store data     |    H     |      3hrs      |      4hrs      |     4hrs     |
 | Javascript/DOM manipulation |    H     |      8hrs      |      hrs      |     hrs     |
 | Finish CSS                  |    M     |      8hrs      |      hrs      |     hrs     |
 | PostMVP                     |    L     |      4hrs      |      hrs      |     hrs     |
