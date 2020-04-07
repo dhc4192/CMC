@@ -26,8 +26,9 @@ async function getRates() {
 getRates();
 
 convert.addEventListener('click', () => {
-  const inputNumber = document.getElementById("inputNum").value;
-  const conversion = selector.options[selector.selectedIndex].value
+  const inputNumber = document.getElementById("inputNum").value
+  const internationalRates = selector.options[selector.selectedIndex].value
+  const conversion = inputNumber * internationalRates
 
-  console.log(inputNumber * conversion)
+  showResult.value = conversion
 })
