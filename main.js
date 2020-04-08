@@ -4,6 +4,8 @@
 // const showResult = document.querySelector("#result");
 // const convert = document.querySelector("button");
 // const additionalInfo = document.querySelector("#addInfo");
+const page2Button = document.querySelector('.multiply')
+const page2Result = document.querySelector('.calculation')
 
 // const BASE_URL =
 //   "https://prime.exchangerate-api.com/v5/ea19256df9d432e21c8cfc0e/latest/USD";
@@ -33,7 +35,6 @@
 //   showResult.value = conversion
 // })
 
-
 function showTable() {
   const currentTable = document.querySelector('.currentTable')
   if (currentTable.style.display == 'none') {
@@ -54,3 +55,8 @@ function hideTable() {
   }
 }
 
+page2Button.addEventListener('click', () => {
+  const Page2Num1 = document.querySelector(".num1")
+  const Page2Num2 = document.querySelector(".num2")
+  page2Result.value = Page2Num1.value * Page2Num2.value
+})
