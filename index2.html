@@ -7,13 +7,31 @@
     <title>Currency List</title>
   </head>
   <body>
-    <div class='page2Div'>
+    <a href="./index.html"><button id="mainPage">Main page</button></a>
+    <div class="page2Div">
       <h2 class="page2Description">
-        Here you can find other currencies. <br> You can also make the conversion below the table. <br />
+        Here you can find other currencies. <br />
+        You can also make the conversion below. <br />
       </h2>
     </div>
 
-    <table>
+    <section class="page2Section">
+      <ul>
+        <h3>Instructions:</h3>
+        <li>Get the rate you need.</li>
+        <li>Enter the USD value.</li>
+        <li>Enter the rate.</li>
+        <li>Click on the equal sign.</li>
+      </ul>
+      <div class="page2Calculation">
+        <input type="text" placeholder="$USD" class="num1" />
+        <input type="text" placeholder="Rate" class="num2" />
+        <button class="multiply">=</button>
+        <output class="calculation">Result</output>
+      </div>
+    </section>
+
+    <table class="page2Table">
       <tr>
         <th>Code:</th>
         <th>Currency:</th>
@@ -316,24 +334,7 @@
       </tr>
     </table>
 
-    <section class="page2Calculation">
-
-      <ul>  
-        <h3>Instructions:</h3>
-        <li>Get the rate you need.</li> 
-        <li> Enter the USD value.</li>
-        <li>Enter the rate.</li>
-        <li>Click on the equal sign.</li>
-      </ul>
-
-      <input type="text" placeholder="USD" class="num1" /> *
-      <input type="text" placeholder="Rate" class="num2" />
-      <button class="multiply">=</button>
-      <output class="calculation">Result</output>
-    </section>
-    <section></section>
-
-    <a href="./index.html"><button id="mainPage">Main page</button></a>
+    <a class="upbtn" href="#">^</a>
 
     <script src="./main.js"></script>
   </body>

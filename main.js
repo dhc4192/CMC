@@ -4,8 +4,8 @@
 // const showResult = document.querySelector("#result");
 // const convert = document.querySelector("button");
 // const additionalInfo = document.querySelector("#addInfo");
-const page2Button = document.querySelector('.multiply')
-const page2Result = document.querySelector('.calculation')
+const page2Button = document.querySelector(".multiply");
+const page2Result = document.querySelector(".calculation");
 
 // const BASE_URL =
 //   "https://prime.exchangerate-api.com/v5/ea19256df9d432e21c8cfc0e/latest/USD";
@@ -36,27 +36,28 @@ const page2Result = document.querySelector('.calculation')
 // })
 
 function showTable() {
-  const currentTable = document.querySelector('.currentTable')
-  if (currentTable.style.display == 'none') {
-    currentTable.style.display = 'inline-block'
-    hideList.style.display = 'inline-block'
+  const currentTable = document.querySelector(".currentTable");
+  if (currentTable.style.display == "none") {
+    currentTable.style.display = "inline-block";
+    hideList.style.display = "inline-block";
   } else {
-    currentTable.style.display = 'none'
+    currentTable.style.display = "none";
+    hideList.style.display = "none";
   }
 }
 
 function hideTable() {
-  const currentTable = document.querySelector('.currentTable')
-  if (currentTable.style.display == 'inline-block') {
-    currentTable.style.display = 'none'
-    hideList.style.display = 'none'
+  const currentTable = document.querySelector(".currentTable");
+  if (currentTable.style.display == "inline-block") {
+    currentTable.style.display = "none";
+    hideList.style.display = "none";
   } else {
-    currentTable.style.display = 'inline-block'
+    currentTable.style.display = "inline-block";
   }
 }
 
-page2Button.addEventListener('click', () => {
-  const Page2Num1 = document.querySelector(".num1")
-  const Page2Num2 = document.querySelector(".num2")
-  page2Result.value = Page2Num1.value * Page2Num2.value
-})
+page2Button.addEventListener("click", () => {
+  const Page2Num1 = document.querySelector(".num1");
+  const Page2Num2 = document.querySelector(".num2");
+  page2Result.value = Page2Num1.value * Page2Num2.value;
+});

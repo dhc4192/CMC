@@ -27,17 +27,19 @@
         <div class="converter">
           <div>
             <label for="usValue">USD(United States)</label>
-            <input type="text" placeholder="$" id="inputNum" />
+            <input type="text" placeholder="$" id="inputNum">
           </div>
 
           <div>
             <select name="Currency" id="currencySelector">
               <option>Select Currency</option>
             </select>
-            <output name="result" id="result">Result</output>
+            <div>
+              <button>Convert</button>
+            </div>
           </div>
-          <button>Convert</button>
-        </div>
+          <output name="result" id="result">Result</output>
+
       </section>
 
       <section>
@@ -118,7 +120,7 @@
           <tr>
             <td>DKK</td>
             <td>Danish Krone</td>
-            <td>DENMARK, GREENLAND, FAROE ISLANDS</td>
+            <td>DENMARK</td>
           </tr>
           <tr>
             <td>DOP</td>
@@ -303,12 +305,15 @@
         </table>
         <button id="hideList" onclick="hideTable()">Close list</button>
       </section>
-      
-      <section class='nextPage'>      
-        <a href="./index2.html"><button id="moreCurrency">Don't see the currency you need? Try checking here!</button></a>
+
+      <section class="nextPage">
+        <a href="./index2.html">
+          <button id="moreCurrency">
+            Don't see the currency you need? Try checking here!
+          </button>
+        </a>
       </section>
     </main>
-
     <footer>
       <h6>Daehyun Choi 2020</h6>
     </footer>
@@ -317,4 +322,3 @@
     <script src="./main.js"></script>
   </body>
 </html>
-
