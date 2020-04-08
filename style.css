@@ -43,9 +43,8 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 50px auto;
-  padding: 50px;
-  width: 800px;
+  margin: 50px;
+  padding: 40px;
 }
 
 .inputNum {
@@ -76,7 +75,15 @@ button {
   width: 70px;
 }
 
-p {
+#currencyList {
+  background-color: white;
+  border: 1px solid navy;
+  margin: 50px auto;
+  padding: 10px;
+  width: 140px;
+}
+
+#moreCurrency {
   background-color: white;
   border: 1px solid navy;
   margin: 50px auto;

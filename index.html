@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>Change My ¢hange</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <img src="addins/logo.jpg" alt="cmc logo" id="logo">
-      <h1 class="title">Change My ¢hange</h1>
-    </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Change My ¢hange</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="addins/logo.jpg" alt="cmc logo" id="logo" />
+        <h1 class="title">Change My ¢hange</h1>
+      </nav>
 
-    <h4>This is a currency converter. We all know the currency value is different throughout the world. You will be able to convert U.S dollar (USD) to other currency values. Input the amount you want to convert and select the currency you want to convert to. So before booking a flight lets see how much our money will be worth somewhere else.
-    </h4>
-  </header>
+      <h4>
+        This is a currency converter. We all know the currency value is
+        different throughout the world. You will be able to convert U.S dollar
+        (USD) to other currency values. Input the amount you want to convert and
+        select the currency you want to convert to. So before booking a flight
+        lets see how much our money will be worth somewhere else.
+      </h4>
+    </header>
 
-  <main>
-    <section>
-      <div class= "converter">
+    <main>
+      <section>
+        <div class="converter">
+          <div>
+            <label for="usValue">USD(United States)</label>
+            <input type="text" placeholder="$" id="inputNum" />
+          </div>
 
-        <div>
-          <label for="usValue">USD(United States)</label>
-          <input type="text" placeholder="$" id="inputNum">
+          <div>
+            <select name="Currency" id="currencySelector">
+              <option>Select Currency</option>
+            </select>
+            <output name="result" id="result">Result</output>
+          </div>
+          <button>Convert</button>
         </div>
-      
-        <div>
-          <select name="Currency" id="currencySelector">
-            <option>Select Currency</option>
-          </select>
-          <output name="result" id="result">Result</output>
-        </div>
-      
-        <button>Convert</button>
+      </section>
 
-      </div>
+      <section>
+        <div id="currencyList">Click here to see the list of currencies.</div>
+        <div id="moreCurrency">Don't see the currency you need? Try checking here.</div>
+      </section>
+    </main>
 
-    </section>
-    
-    <p id='addInfo'>Addition Information</p>
-  </main>
+    <footer>
+      <h6>Daehyun Choi 2020</h6>
+    </footer>
 
-  <footer>
-    <h6>Daehyun Choi 2020</h6>
-  </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
-  <script src="./main.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
+    <script src="./main.js"></script>
+  </body>
 </html>
