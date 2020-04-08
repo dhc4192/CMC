@@ -62,8 +62,8 @@ https://wireframe.cc/pro/pp/45d53fe9c330387
 
 | Day        | Deliverable                                               | Status     |
 | ---------- | --------------------------------------------------------- | ---------- |
-| April 6th  | Pitch my project and get approval                         | Complete |
-| April 7th  | Complete HTML, basic CSS, start Javascript                | Complete |
+| April 6th  | Pitch my project and get approval                         | Complete   |
+| April 7th  | Complete HTML, basic CSS, start Javascript                | Complete   |
 | April 8th  | Javascript                                                | Incomplete |
 | April 9th  | Complete CSS, finishing touch, PostMVP (if there is time) | Incomplete |
 | April 10th | Presentation                                              | Incomplete |
@@ -80,12 +80,12 @@ https://wireframe.cc/pro/pp/45d53fe9c330387
 
 | Component                   | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------------- | :------: | :------------: | :-----------: | :---------: |
-| HTML and basic CSS          |    H     |      3hrs      |      3hrs      |     3hrs     |
-| Page layout                 |    M     |      1hr       |      1hrs      |     1hrs     |
-| Currency selector           |    H     |      3hrs      |      2hrs      |     2hrs     |
-| Currency input              |    H     |      3hrs      |      1hr       |     1hr      |
-| Conversion results          |    H     |      3hrs      |      2hrs      |     2hrs     |
-| Link API and store data     |    H     |      3hrs      |      4hrs      |     4hrs     |
+| HTML and basic CSS          |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Page layout                 |    M     |      1hr       |     1hrs      |    1hrs     |
+| Currency selector           |    H     |      3hrs      |     2hrs      |    2hrs     |
+| Currency input              |    H     |      3hrs      |      1hr      |     1hr     |
+| Conversion results          |    H     |      3hrs      |     2hrs      |    2hrs     |
+| Link API and store data     |    H     |      3hrs      |     4hrs      |    4hrs     |
 | Javascript/DOM manipulation |    H     |      8hrs      |      hrs      |     hrs     |
 | Finish CSS                  |    M     |      8hrs      |      hrs      |     hrs     |
 | PostMVP                     |    L     |      4hrs      |      hrs      |     hrs     |

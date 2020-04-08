@@ -32,3 +32,25 @@
 
 //   showResult.value = conversion
 // })
+
+
+function showTable() {
+  const currentTable = document.querySelector('.currentTable')
+  if (currentTable.style.display == 'none') {
+    currentTable.style.display = 'inline-block'
+    hideList.style.display = 'inline-block'
+  } else {
+    currentTable.style.display = 'none'
+  }
+}
+
+function hideTable() {
+  const currentTable = document.querySelector('.currentTable')
+  if (currentTable.style.display == 'inline-block') {
+    currentTable.style.display = 'none'
+    hideList.style.display = 'none'
+  } else {
+    currentTable.style.display = 'inline-block'
+  }
+}
+
