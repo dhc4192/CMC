@@ -1,15 +1,16 @@
 body {
   max-width: 100%;
   max-height: 100%;
+  font-family: 'Overpass', sans-serif;
   margin: 0 auto;
-  background: #bdc3c7;
-  background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50);
-  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
   background-attachment: fixed;
+  background-image: url(addins/black-gold.jpg);
 }
 
 nav {
-  border: 1px solid navy;
   display: flex;
   height: 100px;
 }
@@ -17,85 +18,99 @@ nav {
 img {
   display: flex;
   height: 100px;
-  opacity: 60%;
+  opacity: 80%;
 }
 
 h4 {
-  background-color: #e3e4e6;
-  border: 1px solid navy;
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  font-weight: bolder;
   display: flex;
   margin: 50px;
   padding: 20px;
+  border-radius: 5%;
 }
 
 section {
-  border: 1px solid navy;
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  width:90vw;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5%;
 }
 
 .converter {
-  background-color: #e3e4e6;
-  border: 1px solid navy;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin: 50px;
-  padding: 40px;
+  margin: 10px auto;
 }
 
-.inputNum {
-  height: 30px;
-  font-size: 20px;
-  display: flex;
-  margin-right: 10px;
-}
 label {
-  font-size: 14px;
+  font-size: 19px;
+  font-weight: bolder;
 }
 
-#currencySelector {
+#inputNum {
   background-color: white;
-  border: 1px solid navy;
-  overflow: scroll;
-  width: 20vw;
-  height: 30px;
-  font-size: 14px;
-  display: flex;
-  margin-right: 10px;
-  margin-bottom: 5px;
-}
-
-#result {
-  background-color: white;
-  border: 1px solid navy;
   font-size: 16px;
   display: flex;
   justify-content: center;
   height: 20px;
-  width: 20vw;
+  width: 30vw;
   padding: 2px;
+  margin-right: 10px;
 }
 
-button {
+#currencySelector {
   background-color: white;
-  border: 1px solid navy;
-  height: 25px;
+  overflow: scroll;
+  width: 30vw;
+  height: 30px;
+  font-size: 14px;
+  display: flex;
+  margin-right: 20px;
+}
+
+#convert {
+  background-color: white;
+  height: 30px;
   width: 70px;
   display: flex;
+  margin-right: 10px;
+}
+
+#result {
+  background-color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  width: 30vw;
+  margin-right: 10px;
+  padding-top: 3px;
+}
+
+.lists {
+  height: 60px;
+  padding: 10px;
+  width: 350px;
 }
 
 #showList {
-  background-color: white;
-  border: 1px solid navy;
+  background: white;
   font-size: 14px;
   display: flex;
-  margin: 10px;
-  padding: 5px auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 5px;
   width: 260px;
 }
 
 #hideList {
-  background-color: white;
-  border: 1px solid navy;
+  background: white;
   font-size: 14px;
   display: none;
   margin: 10px;
@@ -106,39 +121,25 @@ button {
 .currentTable {
   margin: 0 auto;
   display: none;
-  width: auto;
-  
 }
 
 table, th, td {
   border: 1px solid navy;
-  background-color: #e3e4e6;
-}
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+  background: linear-gradient(to right, #eef2f3, #8e9eab);}
 
 table {
-  width: 100%;
-}
-
-.nextPage {
-  display: flex;
+  width: 95%;
+  margin: 0 auto;
 }
 
 #moreCurrency {
-  background-color: white;
-  border: 1px solid navy;
+  background: white;
   font-size: 14px;
   display: flex;
-  margin: 10px;
   padding: 5px;
-  width: 340px;
-  margin-bottom: 20px;
-}
-
-footer {
-  text-align: center;
-  width: 100%;
-  position: relative;
-  bottom: 0;
+  width: 350px;
 }
 
 /** Page 2 */
@@ -148,8 +149,10 @@ footer {
 }
 
 .page2Description {
-  background-color: #e3e4e6;
-  border: 1px solid navy;
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+  background: linear-gradient(to right, #eef2f3, #8e9eab);  
+  border-radius: 5%;
   display: flex;
   font-size: 20px;
   margin: 20px;
@@ -158,8 +161,11 @@ footer {
 }
 
 ul {
-  background-color: #e3e4e6;
-  border: 1px solid navy;
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+  background: linear-gradient(to right, #eef2f3, #8e9eab);  
+  border-style: double;
+  border-radius: 5%;
   margin: 20px;
   padding: 10px 20px;
   width: 180px;
@@ -171,9 +177,8 @@ h3 {
 }
 
 .page2Section {
-  border: 1px solid navy;
   display: flex;
-  margin: 10px;
+  margin: 10px auto;
   justify-content: space-evenly;
 }
 
@@ -184,8 +189,7 @@ h3 {
   padding: 10px;
 }
 
-.num1,
-.num2 {
+.num1, .num2 {
   display: flex;
   height: 25px;
   width: 40vw;
@@ -196,8 +200,9 @@ h3 {
 }
 
 .multiply {
-  background-color: #e3e4e6;
-  display: flex;
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+  background: linear-gradient(to right, #eef2f3, #8e9eab);  display: flex;
   justify-content: center;
   font-size: 15px;
   width: 40px;
@@ -206,10 +211,10 @@ h3 {
 }
 
 .calculation {
-  background-color: white;
-  border: 1px solid navy;
+  background: white;
   display: flex;
   justify-content: center;
+  border-style: double;
   font-size: 20px;
   width: 40vw;
   margin: 10px auto;
@@ -217,96 +222,74 @@ h3 {
 }
 
 #mainPage {
-  background-color: white;
-  border: 1px solid navy;
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+  background: linear-gradient(to right, #eef2f3, #8e9eab);  
   font-size: 14px;
   margin: 10px;
   padding: 5px auto;
   width: 150px;
-  float: right;
+  position: absolute;
+  right: 0;
 }
 
 .upbtn {
   font-size: 40px;
   float: right;
-  width: 30px;
   height: 30px;
+  width: 30px;
+  margin: 10px;
   bottom: 30px;
   right: 30px;
-  margin: 10px;
   text-align: center;
   background-color: rgb(180, 180, 192);
   color: white;
 }
 
-
 /** Media Query */
 
-@media (min-width: 1000px) {
-  #inputNum {
-    width: 200px;
-  }
-  button {
-    width: 200px;
-  }
-  .page2Description {
-    width: 400px;
-  }
-  ul {
-    width: 220px;
-  }
-
-}
-
-@media (max-width: 520px) {
+@media (max-width: 720px) {
   body {
     font-size: 20px;
-  } 
+  }
   .converter {
     flex-direction: column;
   }
+  label {
+    margin: 0 auto;
+    width: 50vw;
+  }
   #inputNum {
+    margin: 0 auto;
     margin-bottom: 10px;
+    width: 50vw;
   }
-  button {
-    margin: 10px 0;
+  #currencySelector {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 50vw;
   }
+  #convert {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 70px;  
+  }
+  #result {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 50vw;
+    }
   .page2Section {
     flex-direction: column;
   }
-  #currencySelector {
-    width: 150px;
-  }
-  #result {
-    width: 130px;
-  }
-  .num1, .num2 {
-    width: 180px;
-  }
+  .num1,
+  .num2 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 50vw;
+    }  
   .calculation {
-    width: 180px;
-  }
-}
-
-@media (max-width: 480px) {
-  body {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 375px) {
-  body {
-    max-width: 100%;
-  }
-  #moreCurrency {
-  width: fit-content;
-  height: fit-content;
-  }
-  .page2Table {
-  width: 100%;
-  }
-  .page2Description {
-    font-size: 15px;
-  }
-
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 50vw;  }
 }

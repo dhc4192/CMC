@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
     <title>Change My ¢hange</title>
   </head>
+
   <body>
     <header>
       <nav>
         <img src="addins/logo.jpg" alt="cmc logo" id="logo" />
       </nav>
-
       <h4>
         This is a currency converter. We all know the currency value is
         different throughout the world. You will be able to convert U.S dollar
@@ -24,25 +26,20 @@
     <main>
       <section>
         <div class="converter">
-          <div>
-            <label for="usValue">USD(United States)</label>
-            <input type="text" placeholder="$" id="inputNum">
-          </div>
+          <label for="usValue">USD(United States)</label>
+          <input type="text" placeholder="$" id="inputNum">
 
-          <div>
-            <select name="Currency" id="currencySelector">
-              <option>Select Currency</option>
-            </select>
-            <div>
-              <button>Convert</button>
-            </div>
-          </div>
+          <select name="Currency" id="currencySelector">
+            <option>Select Currency</option>
+          </select>
+          <button id='convert'>Convert</button>
+        
           <output name="result" id="result">Result</output>
-
+        </div>
       </section>
 
-      <section>
-        <button id="showList" onclick="showTable()">
+      <section class='lists'>
+        <button id="showList">
           Click here to see the list of currencies!
         </button>
         <table class="currentTable">
@@ -302,22 +299,17 @@
             <td>SOUTH AFRICA</td>
           </tr>
         </table>
-        <button id="hideList" onclick="hideTable()">Close list</button>
-      </section>
+        <button id="hideList")">Close list</button>
 
-      <section class="nextPage">
         <a href="./index2.html">
-          <button id="moreCurrency">
-            Don't see the currency you need? Try checking here!
-          </button>
+        <button id="moreCurrency">Don't see the currency you need? Try checking here!</button>
         </a>
       </section>
     </main>
-    <footer>
-      <h6>Daehyun Choi 2020</h6>
-    </footer>
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
     <script src="./main.js"></script>
+    
   </body>
+
 </html>
