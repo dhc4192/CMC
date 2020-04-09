@@ -64,8 +64,8 @@ https://wireframe.cc/pro/pp/45d53fe9c330387
 | ---------- | --------------------------------------------------------- | ---------- |
 | April 6th  | Pitch my project and get approval                         | Complete   |
 | April 7th  | Complete HTML, basic CSS, start Javascript                | Complete   |
-| April 8th  | Javascript                                                | Incomplete |
-| April 9th  | Complete CSS, finishing touch, PostMVP (if there is time) | Incomplete |
+| April 8th  | Javascript                                                | Complete   |
+| April 9th  | Complete CSS, finishing touch, PostMVP (if there is time) | Complete   |
 | April 10th | Presentation                                              | Incomplete |
 
 ##
@@ -81,31 +81,38 @@ https://wireframe.cc/pro/pp/45d53fe9c330387
 | Component                   | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------------- | :------: | :------------: | :-----------: | :---------: |
 | HTML and basic CSS          |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Page layout                 |    M     |      1hr       |     1hrs      |    1hrs     |
+| Page layout                 |    M     |      1hr       |      1hr      |     1hr     |
 | Currency selector           |    H     |      3hrs      |     2hrs      |    2hrs     |
 | Currency input              |    H     |      3hrs      |      1hr      |     1hr     |
-| Conversion results          |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Link API and store data     |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Javascript/DOM manipulation |    H     |      8hrs      |      hrs      |     hrs     |
-| Finish CSS                  |    M     |      8hrs      |      hrs      |     hrs     |
-| PostMVP                     |    L     |      4hrs      |      hrs      |     hrs     |
-| Unexpected Debugging        |    H     |      4hrs      |      hrs      |     hrs     |
-| Total                       |          |     40hrs      |      hrs      |     hrs     |
+| Conversion results          |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Link API and store data     |    H     |      3hrs      |     5hrs      |    5hrs     |
+| Javascript/DOM manipulation |    H     |      8hrs      |     9hrs      |    9hrs     |
+| Finish CSS                  |    M     |      8hrs      |     5hrs      |    5hrs     |
+| PostMVP                     |    L     |      4hrs      |     4hrs      |    4hrs     |
+| Unexpected Debugging        |    H     |      4hrs      |     .5hrs     |    .5hrs    |
+| Total                       |          |     40hrs      |    33.5hrs    |   33.5hrs   |
 
 ##
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description
+This code allowed me to display the hidden table and hide it again.
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+showTable.addEventListener("click", () => {
+  const currentTable = document.querySelector(".currentTable");
+  if (currentTable.style.display == "none") {
+    currentTable.style.display = "inline-block";
+    hideList.style.display = "inline-block";
+  } else {
+    currentTable.style.display = "none";
+    hideList.style.display = "none";
+  }
+});
 ```
 
 ##
 
 ## Change Log
 
-Use this section to document what changes were made and the reasoning behind those changes.
+There were no changes made. However, I ended up adding an extra page.
