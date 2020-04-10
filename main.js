@@ -23,7 +23,6 @@ function addRates(response) {
 //* Async-Await
 async function getRates() {
   const response = await axios.get(BASE_URL);
-  console.log(response);
   addRates(response);
 }
 getRates();
