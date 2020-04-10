@@ -1,3 +1,4 @@
+// * Variables
 const selector = document.querySelector("#currencySelector");
 const showResult = document.querySelector("#result");
 const convert = document.querySelector("button");
