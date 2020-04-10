@@ -60,13 +60,13 @@ https://wireframe.cc/pro/pp/45d53fe9c330387
 
 ## Project Schedule
 
-| Day        | Deliverable                                               | Status     |
-| ---------- | --------------------------------------------------------- | ---------- |
-| April 6th  | Pitch my project and get approval                         | Complete   |
-| April 7th  | Complete HTML, basic CSS, start Javascript                | Complete   |
-| April 8th  | Javascript                                                | Complete   |
-| April 9th  | Complete CSS, finishing touch, PostMVP (if there is time) | Complete   |
-| April 10th | Presentation                                              | Incomplete |
+| Day        | Deliverable                                               | Status   |
+| ---------- | --------------------------------------------------------- | -------- |
+| April 6th  | Pitch my project and get approval                         | Complete |
+| April 7th  | Complete HTML, basic CSS, start Javascript                | Complete |
+| April 8th  | Javascript                                                | Complete |
+| April 9th  | Complete CSS, finishing touch, PostMVP (if there is time) | Complete |
+| April 10th | Presentation                                              | Complete |
 
 ##
 
