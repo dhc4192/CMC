@@ -142,7 +142,6 @@ table, th, td {
 table {
   margin: 0 auto;
   opacity: 95%;
-  font-weight: bold;
 }
 
 .currentTable {
