@@ -2,6 +2,7 @@ body {
   max-width: 100%;
   max-height: 100%;
   font-family: 'Overpass', sans-serif;
+  font-size: 17px;
   margin: 0 auto;
   background: #8e9eab;
   background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
@@ -30,6 +31,7 @@ h4 {
   margin: 50px;
   padding: 20px;
   border-radius: 5%;
+  opacity: 95%;
 }
 
 section {
@@ -40,6 +42,7 @@ section {
   margin: 0 auto;
   padding: 10px;
   border-radius: 5%;
+  opacity: 95%;
 }
 
 .converter {
@@ -62,6 +65,7 @@ label {
   width: 30vw;
   padding: 2px;
   margin-right: 10px;
+  box-shadow: 3px 3px;
 }
 
 #currencySelector {
@@ -72,6 +76,7 @@ label {
   font-size: 14px;
   display: flex;
   margin-right: 20px;
+  box-shadow: 3px 3px;
 }
 
 #convert {
@@ -80,6 +85,7 @@ label {
   width: 70px;
   display: flex;
   margin-right: 10px;
+  box-shadow: 3px 3px;
 }
 
 #result {
@@ -91,12 +97,14 @@ label {
   width: 30vw;
   margin-right: 10px;
   padding-top: 3px;
+  box-shadow: 3px 3px;
 }
 
 .lists {
-  height: 60px;
-  padding: 10px;
-  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 60vw;
 }
 
 #showList {
@@ -106,7 +114,9 @@ label {
   margin: 0 auto;
   margin-bottom: 10px;
   padding: 5px;
-  width: 260px;
+  width: 50vw;
+  justify-content: center;
+  box-shadow: 3px 3px;
 }
 
 #hideList {
@@ -116,6 +126,23 @@ label {
   margin: 10px;
   padding: 5px auto;
   width: 180px;
+  box-shadow: 3px 3px;
+}
+
+
+
+table, th, td {
+  border: 1px solid navy;
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  font-size: 17px;
+}
+
+table {
+  margin: 0 auto;
+  opacity: 95%;
+  font-weight: bold;
 }
 
 .currentTable {
@@ -123,23 +150,16 @@ label {
   display: none;
 }
 
-table, th, td {
-  border: 1px solid navy;
-  background: #8e9eab;
-  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
-  background: linear-gradient(to right, #eef2f3, #8e9eab);}
-
-table {
-  width: 95%;
-  margin: 0 auto;
-}
-
 #moreCurrency {
   background: white;
   font-size: 14px;
   display: flex;
+  margin: 0 auto;
+  margin-bottom: 10px;
   padding: 5px;
-  width: 350px;
+  width: 55vw;
+  justify-content: center;
+  box-shadow: 3px 3px;
 }
 
 /** Page 2 */
@@ -158,6 +178,7 @@ table {
   margin: 20px;
   padding: 5px;
   width: 450px;
+  opacity: 95%;
 }
 
 ul {
@@ -169,6 +190,7 @@ ul {
   margin: 20px;
   padding: 10px 20px;
   width: 180px;
+  box-shadow: 3px 3px;
 }
 h3 {
   text-decoration: underline;
@@ -197,6 +219,7 @@ h3 {
   font-size: 15px;
   margin: 0 auto;
   margin-bottom: 10px;
+  box-shadow: 3px 3px;
 }
 
 .multiply {
@@ -208,6 +231,7 @@ h3 {
   width: 40px;
   height: 30px;
   margin: 0 auto;
+  box-shadow: 3px 3px;
 }
 
 .calculation {
@@ -219,6 +243,11 @@ h3 {
   width: 40vw;
   margin: 10px auto;
   padding: 5px;
+  box-shadow: 3px 3px;
+}
+
+.page2Table {
+  width: 95%;
 }
 
 #mainPage {
