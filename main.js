@@ -16,8 +16,9 @@ function addRates(response) {
   for (keys in conversionRates) {
     let option = document.createElement("option");
     option.text = keys;
-    option.value = conversionRates[keys];
+    option.value = conversionRates[keys];  
     selector.add(option, null);
+
   }
 }
 
